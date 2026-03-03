@@ -23,7 +23,7 @@ export default defineConfig({
         items: [
           { text: '业务简介', link: '/Lending_业务简介' },
           { text: '漏洞分析', link: '/Lending_漏洞' },
-          { text: 'Checklist', link: '/Lending_Checklist' }
+          { text: 'Lending_Checklist', link: '/Lending_Checklist' }
         ]
       },
       {
@@ -31,7 +31,39 @@ export default defineConfig({
         items: [
           { text: '业务简介', link: '/Staking_业务简介' },
           { text: '漏洞分析', link: '/Staking_漏洞' },
-          { text: 'Checklist', link: '/Staking_Checklist' }
+          { text: 'Staking_Checklist', link: '/Staking_Checklist' }
+        ]
+      },
+      {
+        text: 'Oracle安全',
+        items: [
+          { text: 'Oracle_Checklist', link: '/Oracle_Checklist' }
+        ]
+      },
+      {
+        text: 'Dex安全',
+        items: [
+          { text: 'Dex_Checklist', link: '/Dex_Checklist' },
+          { text: 'CLMM DLMM_Checklist', link: '/CLMM DLMM_Checklist' }
+        ]
+      },
+      {
+        text: 'Crosschain安全',
+        items: [
+          { text: 'Crosschain_Checklist', link: '/Crosschain_Checklist' }
+        ]
+      },
+
+      {
+        text: 'ERC20安全',
+        items: [
+          { text: 'ERC20_Checklist', link: '/ERC20_Checklist' }
+        ]
+      },
+      {
+        text: 'ERC721安全',
+        items: [
+          { text: 'ERC721_Checklist', link: '/ERC721_Checklist' }
         ]
       },
       {
@@ -40,7 +72,7 @@ export default defineConfig({
           { text: '漏洞学习资料', link: '/漏洞学习资料' },
           { text: '合约+业务学习资料', link: '/合约+业务学习资料' }
         ]
-      }
+      },
     ],
 
     socialLinks: [
