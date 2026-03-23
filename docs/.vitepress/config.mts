@@ -67,6 +67,54 @@ export default defineConfig({
         ]
       },
       {
+        text: 'ERC4626安全',
+        items: [
+          { text: 'ERC4626_Checklist', link: '/ERC4626_Checklist' }
+        ]
+      },
+      {
+        text: 'ERC1155安全',
+        items: [
+          { text: 'ERC1155_Checklist', link: '/ERC1155_Checklist' }
+        ]
+      },
+      {
+        text: 'StableCoin安全',
+        items: [
+          { text: 'StableCoin_Checklist', link: '/StableCoin_Checklist' }
+        ]
+      },
+      {
+        text: '密码学安全',
+        items: [
+          { text: '密码学_Checklist', link: '/密码学_Checklist' }
+        ]
+      },
+      {
+        text: 'SPV安全',
+        items: [
+          { text: 'SPV_Checklist', link: '/SPV_Checklist' }
+        ]
+      },
+      {
+        text: '比特币衍生资产安全',
+        items: [
+          { text: '比特币衍生资产_Checklist', link: '/比特币衍生资产_Checklist' }
+        ]
+      },
+      {
+        text: 'Ton安全',
+        items: [
+          { text: 'Ton_Checklist', link: '/Ton_Checklist' }
+        ]
+      },
+      {
+        text: 'Solana安全',
+        items: [
+          { text: 'Solana_Checklist', link: '/Solana_Checklist' }
+        ]
+      },
+      {
         text: 'Resources',
         items: [
           { text: '漏洞学习资料', link: '/漏洞学习资料' },
